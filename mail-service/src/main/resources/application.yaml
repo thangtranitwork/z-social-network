@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mail-service
+server:
+  port: 8083
+brevo:
+  api-key: ${BREVO_API_KEY}
+  name: ${BREVO_NAME}
+  email: ${BREVO_EMAIL}

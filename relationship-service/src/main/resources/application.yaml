@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: relationship-service
+  data:
+    mongodb:
+      uri: ${MONGO_DB_URI}
+server:
+  port: 8085
